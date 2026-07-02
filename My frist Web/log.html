@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body style="background-color: rgb(95, 97, 221); font-family: Arial, sans-serif; text-align: left; padding: 50px;">
+    <form action="/login" method="post">
+        <label for="username" placeholder="Enter your username">Username:</label><br>
+        <input type="text" name="username" placeholder="Enter your username" required><br><br>
+        <label for="email" placeholder="Enter your email">Email:</label><br>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
+        <label for="phone" placeholder="Enter your phone number">Phone:</label><br>
+        <input type="tel" name="phone" placeholder="Enter your phone number"><br><br>
+        <label for="date" placeholder="Enter your date of birth">Date of Birth:</label><br>
+        <input type="date" name="date" placeholder="Enter your date of birth" required><br><br>
+        <label for="gender" placeholder="Select your gender">Gender:</label><br>
+        <select>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+         <label for="password" placeholder="Enter your password">Password:</label><br>
+        <input type="password" name="password" placeholder="Enter your password" required><br><br>
+        <label for="captcha" placeholder="Enter the captcha">Captcha:</label><br>
+        <input type="text" name="captcha" placeholder="Enter the captcha" required style="width: 150px; height: 50px;"><br><br>
+        <label for="text">what is on your mind?</label><br>
+       <textarea name="text" placeholder="Enter your thoughts" rows="2" cols="40"></textarea><br><br>
+        <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; border-radius: 5px;">Login</button>
+    </form>
+</body>
+</html>
