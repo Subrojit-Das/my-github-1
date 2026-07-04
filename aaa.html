@@ -3,10 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="aaa.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat et illum eos dolorum sequi ipsam iure hic, ad ullam, voluptate incidunt? Placeat fuga a assumenda odio. Ab, consequuntur. Sit, tenetur?</p>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to My Blog</h2>
+            <p>Sharing thoughts, tutorials, and inspiration.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container blog-layout">
+
+        <!-- Blog Posts -->
+        <section class="posts">
+
+            <article class="post">
+                <img src="https://picsum.photos/800/400?random=1" alt="">
+                <h2>First Blog Post</h2>
+                <p class="meta">July 4, 2026 | By Admin</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloremque officiis perspiciatis quae deserunt.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+
+            <article class="post">
+                <img src="https://picsum.photos/800/400?random=2" alt="">
+                <h2>Learning HTML & CSS</h2>
+                <p class="meta">July 3, 2026 | By Admin</p>
+                <p>
+                    Build beautiful websites by mastering HTML and CSS with
+                    practical projects.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+
+            <article class="post">
+                <img src="https://picsum.photos/800/400?random=3" alt="">
+                <h2>Web Design Tips</h2>
+                <p class="meta">July 1, 2026 | By Admin</p>
+                <p>
+                    Discover modern design techniques to improve user experience
+                    and website appearance.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="card">
+                <h3>About Me</h3>
+                <p>
+                    Hi! I'm a web developer who loves creating beautiful and
+                    responsive websites.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Web Design</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#">How to Build a Website</a></li>
+                    <li><a href="#">CSS Grid Guide</a></li>
+                    <li><a href="#">Responsive Design</a></li>
+                </ul>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Blog. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
