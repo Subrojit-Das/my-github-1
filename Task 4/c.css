@@ -1,0 +1,41 @@
+/* body{
+    background-color: rgba(114, 66, 66, 0.116);
+}
+.Day{
+    background-color: #d49292;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    color: aqua;
+    border-radius: 5px;
+}
+.month{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    width: min(100%, 500px);
+    max-width: 500px;
+    margin: auto;
+} */
+ .month {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    /* width: min(100%, 500px);
+    max-width: 500px;
+    margin: auto; */
+}
+.day, .day-name {
+    background-color: #d49292;
+    height: 50px;
+    /* width: 50px; */
+    max-width: 300px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    border-radius: 5px;
+}

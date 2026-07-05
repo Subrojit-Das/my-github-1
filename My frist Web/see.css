@@ -1,0 +1,12 @@
+img:hover {
+    transform: scale(1.1);
+}
+.in {
+    background-color: #be2c2c;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+ol:.on{
+    color: #0ae95f;
+}
